@@ -4,8 +4,6 @@
 
 #include"shmem.h"
 
-#define BLOCK_SIZE 4096
-
 int main(int argc, char *argv[]) {
 	if(argc != 2) {
 		printf("usage - %s [stuff to write]", argv[0]);

@@ -9,5 +9,9 @@ bool destroy_memory_block(char *filename);
 
 #define BLOCK_SIZE 4096
 #define FILENAME "writeshmem.c"
+#define IPC_RESULT_ERROR (-1)
+
+#define SEM_PRODUCER_FNAME "/myproducer"
+#define SEM_CONSUMER_FNAME "/myconsumer"
 
 #endif

@@ -1,7 +1,7 @@
 CC=gcc
-CFLAGS=-g -Wall
+CFLAGS=-g -Wall -pthread -lpthread -lrt
 OBJS=shmem.o
-EXE=writeshmem.elf readshmem.elf freeshmem.elf
+EXE=writesemaphore.elf readsemaphore.elf freeshmem.elf
 
 all: $(EXE)
 
